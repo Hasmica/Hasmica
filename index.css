@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: white !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  padding: 4px !important;
+}
+
+.ant-table-cell {
+  background-color: white !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+
+.ant-table-tbody{
+  padding: 4px !important;
+}
+.ant-table-tbody > tr > td{
+  padding: 4px !important;
+}
+.custom-badge .ant-badge-count {
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  padding: 0;
+  right :-9px;
+  top:-3px
+}
+
+.clsTitle{
+  left: 14px;
+  position: relative;
+  font-size: 18px;
+  margin-top: 9px;
+  margin-bottom: 18px;
+}
+
+.clsHomeRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1px 8px; */
+}
+
+.clsTabHomeRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white !important;
+}
+
+.clsHomeRowRight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clsHomeRowRightSearch{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.ant-space-item{
+  background-color: #F5F7FA;
+  /* padding-bottom: 5px; */
+}
+
+.ant-space-gap-row-middle {
+  row-gap: 0px;
+}
+
+.clsTable{
+  margin-left: '15px';
+}
+
+.clsTable tr{
+  height: "50px"
+}
+
+.ant-table{
+  padding-left: 15px;
+}
+
+.ant-table tr{
+  height: 50px;
+}
